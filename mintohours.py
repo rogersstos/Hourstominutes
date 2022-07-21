@@ -1,3 +1,18 @@
-a=10
-b=1
-print(a+b)
+# Get a number of seconds from the user
+total_seconds=float(input('Enter the number of seconds: '))
+
+# Get the number of hours
+hours=total_seconds//3600
+
+#Get the number of remaining minutes
+minutes=(total_seconds//60)%60
+
+# Get the number of remaining seconds
+seconds=total_seconds%60
+
+#Display the results
+
+print('Here is the time in hours, munutes, and seconds: ')
+print('Hours: ' ,hours)
+print('Minutes' ,minutes)
+print('Seconds' ,seconds)
